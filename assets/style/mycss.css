@@ -1,0 +1,22 @@
+.div-img {
+    height: 100vh;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    background-image: url(../img/pey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.par {
+    text-align: center;
+    padding-top: 25%;
+}
+.forma {
+    text-align: center;
+}
+#next {
+    padding-top: 25%;
+    text-align: center;
+    column-count: 4;
+}
