@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
 .div-img {
     height: 100vh;
     font-size: 20px;
@@ -6,7 +13,7 @@
     background-image: url(../img/pey.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: top;
 }
 .par {
     text-align: center;
@@ -14,9 +21,60 @@
 }
 .forma {
     text-align: center;
+    color: brown;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 5px;
+    display: block;
+    min-width: 180px;
+    width: 100%;
+    max-width: 250px;
+
 }
 #next {
     padding-top: 25%;
     text-align: center;
     column-count: 4;
+    
 }
+    
+.main {
+    height: 100vh;
+    background-color: bisque;
+    font-size: 0px;
+}
+ article {
+     display: inline-block;
+     font-size: 1rem;
+     
+     
+ }
+ .port
+ {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     border: 3px inset red;
+     object-fit: cover;
+     object-position: top;
+ }
+ .sect {
+     height: 100vh;
+     background-color: rosybrown;
+     padding: 10% 10%;
+     text-align: center;
+ }
+.art {
+    display: inline-block;
+    min-width: 100px;
+    width: 100%;
+    max-width: 250px;
+    height: 40%;
+    border: 2px solid red;
+    
+
+}
+.card1 {
+    background-color: yellowgreen;
+}
+
